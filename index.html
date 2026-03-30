@@ -72,10 +72,14 @@ body::before {
 .nav-logo {
   font-family: 'JetBrains Mono', monospace;
   font-size: 0.7rem;
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
+  letter-spacing: 0.2em;
   color: var(--quantum-blue);
   opacity: 0.7;
+}
+
+.nav-logo .nav-title {
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
 }
 
 .nav-dots {
@@ -827,7 +831,7 @@ section {
 
 <!-- Navigation -->
 <nav class="nav-bar">
-  <div class="nav-logo"><span style="font-style:italic;">i</span>ℏ∂<sub>t</sub>|Ψ⟩ = Ĥ|Ψ⟩ — How Europe Wins</div>
+  <div class="nav-logo"><span style="font-style:italic;">i</span>ℏ∂<sub>t</sub>|Ψ⟩ = Ĥ|Ψ⟩ · <span class="nav-title">How Europe Wins</span></div>
   <div class="nav-dots">
     <button class="nav-dot active" data-section="0" aria-label="Section 1"></button>
     <button class="nav-dot" data-section="1" aria-label="Section 2"></button>
@@ -840,11 +844,12 @@ section {
 
 <!-- ============ SECTION 1: HERO ============ -->
 <section class="hero" id="s-hero">
-  <div class="hero-overline">Forum Alpbach 2026 — Creative Submission</div>
+  <div class="hero-overline">Forum Alpbach 2026 · Creative Submission</div>
   <h1>Europe's future<br>hangs on a<br><span class="highlight">single photon.</span></h1>
   <p class="hero-subtitle">
-Every encrypted message, every digital transaction, and every state secret are protected by mathematics that a quantum computer will break.<br>
-Unless we build something new. Now.
+    Every encrypted message, every digital transaction, every state secret: 
+    protected by mathematics that a quantum computer will break.<br>
+    Unless we build something new. Now.
   </p>
   <div class="scroll-indicator">
     <span>Scroll</span>
@@ -862,7 +867,7 @@ Unless we build something new. Now.
           Quantum computers will shatter RSA and elliptic-curve encryption, the backbone of the internet, banking, and national defence. The question isn't <em>if</em>, but <em>when</em>.
         </p>
         <p class="reveal reveal-delay-2">
-          Adversaries are already harvesting encrypted data today, waiting for the moment they can decrypt it. This is called <strong style="color: var(--danger-red);">"harvest now, decrypt later"</strong>, and it means the threat is already here.
+          Adversaries are already harvesting encrypted data today, waiting for the moment they can decrypt it. This is called <strong style="color: var(--danger-red);">"harvest now, decrypt later"</strong> — and it means the threat is already here.
         </p>
         <p class="reveal reveal-delay-3">
           Europe cannot afford to depend on foreign infrastructure for the answer. The continent that invented quantum mechanics must now engineer its own quantum-secure future.
@@ -894,13 +899,13 @@ Unless we build something new. Now.
   </div>
 </section>
 
-<!-- ============ SECTION 3: THE SOLUTION — MAP ============ -->
+<!-- ============ SECTION 3: THE SOLUTION - MAP ============ -->
 <section class="solution" id="s-solution">
   <div class="section-inner">
     <div class="solution-header">
       <h2 class="reveal">Europe is building a <span class="glow">quantum shield.</span></h2>
       <p class="reveal reveal-delay-1">
-        The EuroQCI initiative connects all 27 EU member states through quantum-secured communication,
+        The EuroQCI initiative connects all 27 EU member states through quantum-secured communication, 
         using the laws of physics, not the difficulty of math, to guarantee secrecy.
       </p>
     </div>
@@ -954,7 +959,7 @@ Unless we build something new. Now.
       <div class="gs-photo-caption">
         <h3>Quantum Optical Ground Station · Innsbruck, Austria</h3>
         <p>
-          A telescope in the Alps, pointed at the stars not to observe, but to communicate. 
+          A telescope in the Alps, pointed at the stars. Not to observe, but to communicate. 
           This station sends and receives single photons to satellites in low Earth orbit, 
           forging quantum-secure links through 600 km of atmosphere.
         </p>
@@ -973,7 +978,7 @@ Unless we build something new. Now.
           In an optics lab in Innsbruck, a Sagnac interferometer pumps ultraviolet light through a nonlinear crystal, creating pairs of photons that are <em>entangled</em>: quantum-mechanically linked regardless of distance.
         </p>
         <p class="reveal reveal-delay-2">
-          One photon goes to the ground station's detector. The other is sent up through 600 km of turbulent atmosphere to a satellite overhead. Together, they generate a cryptographic key that is physically impossible to intercept without detection.
+          One photon goes to the ground station's detector. The other is sent up, through 600 km of turbulent atmosphere, to a satellite overhead. Together, they generate a cryptographic key that is physically impossible to intercept without detection.
         </p>
         <p class="reveal reveal-delay-3">
           This is not theory. The optical ground station is built. The tracking system locks onto satellites with microrad precision. The entangled photon source is running. Right now, from the Alps, photon by photon, part of Europe's quantum infrastructure is coming to life.
@@ -1180,7 +1185,7 @@ Unless we build something new. Now.
       </blockquote>
       <div class="quote-attr">Erwin Schrödinger, 1935</div>
       <p class="quote-note">
-        Schrödinger spent his final years in Austria,  
+        Schrödinger spent his final years in Austria and is buried in Alpbach, 
         the very village where this forum takes place. 
         The science he named is now becoming the infrastructure that secures a continent.
       </p>
@@ -1188,14 +1193,14 @@ Unless we build something new. Now.
 
     <h2 class="reveal" style="margin-top: 2rem;">How Europe wins:<br><span class="highlight">by controlling the<br>infrastructure of trust.</span></h2>
     <p class="vision-statement reveal reveal-delay-1">
-      Not by building walls — but by weaving an invisible network of light 
+      Not by building walls, but by weaving an invisible network of light 
       that makes eavesdropping not just difficult, but physically impossible. 
       Sovereignty through physics. Security through entanglement. 
       One photon at a time.
     </p>
     <div class="reveal reveal-delay-2">
       <p style="color: var(--text-secondary); font-weight: 300; max-width: 480px; margin: 0 auto; line-height: 1.7; font-size: 0.95rem;">
-        Europe's quantum communication infrastructure isn't a distant vision, but it's being built right now, 
+        Europe's quantum communication infrastructure isn't a distant vision. It's being built right now, 
         in labs and ground stations across the continent. The technology is real. The network is forming. 
         The only question is whether we move fast enough.
       </p>
@@ -1282,7 +1287,7 @@ async function initMap() {
   // Station data with real coordinates
   const stations = [
     { name: 'INNSBRUCK', lat: 47.26, lon: 11.39, info: 'Optical Ground Station Innsbruck|Entangled photon source & satellite uplink|The bridge between ground network and space segment', highlight: true },
-    { name: 'VIENNA', lat: 48.21, lon: 16.37, info: 'Vienna|AIT — Austrian Institute of Technology|Pioneer in European QKD research' },
+    { name: 'VIENNA', lat: 48.21, lon: 16.37, info: 'Vienna|AIT, Austrian Institute of Technology|Pioneer in European QKD research' },
     { name: 'PARIS', lat: 48.86, lon: 2.35, info: 'Paris|Quantum backbone hub|Connecting Iberia to Central Europe' },
     { name: 'BERLIN', lat: 52.52, lon: 13.41, info: 'Berlin|Northern European anchor|High-capacity fiber QKD backbone' },
     { name: 'MADRID', lat: 40.42, lon: -3.70, info: 'Madrid|Iberian ground station|Southwestern European access point' },
@@ -1331,6 +1336,19 @@ async function initMap() {
   satIcon.append('rect').attr('x', -6).attr('y', -2).attr('width', 12).attr('height', 4).attr('rx', 1).attr('fill', '#ffb800');
   satIcon.append('rect').attr('x', -16).attr('y', -1).attr('width', 8).attr('height', 2).attr('rx', 0.5).attr('fill', '#ffb800').attr('opacity', 0.7);
   satIcon.append('rect').attr('x', 8).attr('y', -1).attr('width', 8).attr('height', 2).attr('rx', 0.5).attr('fill', '#ffb800').attr('opacity', 0.7);
+  
+  // Satellite orbit animation
+  let satAngle = 0;
+  const satEl = satIcon.node();
+  function animateSatellite() {
+    satAngle += 0.003;
+    const scx = 400, scy = 300, srx = 350, sry = 180;
+    const sx = scx + srx * Math.cos(satAngle);
+    const sy = scy + sry * Math.sin(satAngle);
+    satEl.setAttribute('transform', `translate(${sx}, ${sy})`);
+    requestAnimationFrame(animateSatellite);
+  }
+  animateSatellite();
   
   // Ground stations
   const stationsG = svg.select('#map-stations');
@@ -1515,21 +1533,6 @@ const mapObserver = new MutationObserver(() => {
   mapObserver.disconnect();
 });
 mapObserver.observe(document.getElementById('map-stations'), { childList: true });
-
-// ========== SATELLITE ANIMATION ==========
-const satellite = document.getElementById('satellite');
-const orbit = document.getElementById('sat-orbit');
-let satAngle = 0;
-
-function animateSatellite() {
-  satAngle += 0.003;
-  const cx = 400, cy = 300, rx = 350, ry = 180;
-  const x = cx + rx * Math.cos(satAngle);
-  const y = cy + ry * Math.sin(satAngle);
-  satellite.setAttribute('transform', `translate(${x}, ${y})`);
-  requestAnimationFrame(animateSatellite);
-}
-animateSatellite();
 
 // ========== NAV DOTS ==========
 const sections = document.querySelectorAll('section');
